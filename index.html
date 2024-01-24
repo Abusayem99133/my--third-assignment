@@ -471,19 +471,22 @@
         </div>
       </div>
     </section>
-    <section class=" flex justify-center space-x-6">
-     <div>
-      <div class="bg-[#BCED6D1A] my-6">
+    <section class=" flex justify-center space-x-6 space-y-12">
+     <div class="rounded-2xl border-solid border-2 border-[#1313181A] p-12">
+      <!-- phone -->
+      <div class="bg-[#BCED6D1A] my-6 p-5">
         <img src="./Images/Group 1171275317.png" alt="">
         <p class="mt-6">Phone Number :</p>
           (+62) 123-321-543
       </div>
-      <div class="bg-[#FDDD5F1A]">
+      <!-- email -->
+      <div class="bg-[#FDDD5F1A] my-6 p-5">
         <img src="./Images/Group 1171275318.png" alt="">
         <p class="mt-6">Email</p>
         hockeys@support.com
       </div>
-      <div class="bg-[#629CF31A] my-6">
+      <!-- location -->
+      <div class="bg-[#629CF31A] my-6 p-5">
         <img src="./Images/Group 1171275321.png" alt="">
         <p class="mt-6">Location : </p>
         152/1 Mohakhali Wireless Gate
@@ -491,7 +494,7 @@
      </div>
      <!-- form section  -->
   
-     <form class="">
+     <form>
           <!-- xs name section -->
 
      <div class="flex space-x-6">
@@ -521,15 +524,51 @@
      </div>
           <br>   
           <label for="message aria">Message</label><br>
-          <textarea name="text" id="" cols="80" rows="70" class="input input-bordered input-lx w-[550] max-w-xl bg-[#13131808] "></textarea><br>
-          <button class="justify-center text-white bg-[#FF4240] border-1px-solid rounded-sm">Send Message</button>
+          <input class=" input input-bordered input-lx w-full  max-w-full h-56 bg-[#13131808]" type="text" placeholder="Write your message"><br>
+          <button class="my-8 justify-center text-white bg-[#FF4240] border-1px-solid rounded-l p-2 w-full font-semibold ">Send Message</button>
          </form>
          
      </div>
     </section>
+    <section class=" text-center my-12 rounded-2xl border-solid border-2 border-[#1313181A]">
+      <div class="text-[#131318] text-2xl font-extrabold">
+        <h3>Social Media</h3>
+      </div>
+      <div class="flex justify-center space-x-4 mt-6">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-github"></i>
+      </div>
+    </section>
   </main>
-  <footer>
-
+  <footer class="footer p-10 bg-[#131318] text-base-content">
+    <aside class="text-white">
+      <h3 class="text-[#fff] text-2xl font-extrabold my-4">Get In Touch</h3>
+      <p class="text-xs font-medium text-white">With more and more Muslims <br> traveling for various reasons <br> such as for leisure, business, <br> education and health the demand for </p>
+      <p><i class="fa-regular fa-envelope text-red-500"></i> hockeys@support.com</p>
+      <p><i class="fa-solid fa-phone-volume text-red-500"></i> (+62) 123-321-543</p>
+    </aside> 
+    <nav>
+      <header class="footer-title">Services</header> 
+      <a class="link link-hover">Branding</a>
+      <a class="link link-hover">Design</a>
+      <a class="link link-hover">Marketing</a>
+      <a class="link link-hover">Advertisement</a>
+    </nav> 
+    <nav>
+      <header class="footer-title">Company</header> 
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Contact</a>
+      <a class="link link-hover">Jobs</a>
+      <a class="link link-hover">Press kit</a>
+    </nav> 
+    <nav>
+      <header class="footer-title">Legal</header> 
+      <a class="link link-hover">Terms of use</a>
+      <a class="link link-hover">Privacy policy</a>
+      <a class="link link-hover">Cookie policy</a>
+    </nav>
   </footer>
 </body>
 </html>
