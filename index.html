@@ -43,14 +43,21 @@
 
   <header>
       <!-- nav bar section  -->
+      <div>
+
+      </div>
+      <div>
+
+      </div>
 
       <nav>
 
-        <div class="flex p-4 w-auto ml-8">
-            <div class=" flex-1 text-4xl font-extrabold text-[#131318] ">
+        <div class="flex align-middle items-center p-4 w-auto pl-0  md:pl-8">
+            <div class="flex gap-3 flex-1 align-middle text-4xl font-extrabold text-[#131318] ">
+                <img class="h-[32px] block md:hidden" src="./Images/Frame.png" alt="">
                 <a class="text-xl">Hockey<span class="text-[#FF4240]">’</span>s</a>
             </div>
-            <div class="flex-none ">
+            <div class="flex-none hidden md:block">
               
                 <div class="lg:relative right-96 ">
                   <ul class="menu menu-horizontal space-x-8">
@@ -79,12 +86,12 @@
     <div class="carousel max-w-full ">
         <div id="slide1" class="carousel-item relative w-full ">
           <img src="./Images/1.png" class=" absolute w-[100%] " />
-          <div class="absolute flex justify-start transform -translate-y-1/6 left-8  bottom-80 ">
+          <div class="absolute flex justify-start left-[50%] translate-x-[-50%] md:transform -translate-y-1/6  md:left-16 bottom-48 md:bottom-80 ">
             <a href="#slide4" class="btn btn-circle">❮</a> 
             <a href="#slide2" class="btn btn-circle">❯</a>
           </div>
-          <div class=" absolute  bottom-64 right-5  bg-[#131318] text-white p-8  rounded-2xl w-[35%]">
-            <h3 class="text-2xl mb-4">Meet all the heroes from the field</h3>
+          <div class="relative md:absolute bottom-0 md:bottom-64 right-0 md:right-5 mt-44 bg-[#131318] text-white p-5 md:p-8  rounded-2xl w-[100%] md:w-[35%]">
+            <h3 class="text-xl md:text-2xl mb-4">Meet all the heroes from the field</h3>
             <p>With ten men’s teams, six ladies teams, a mixed side, a range of youth teams</p>
         </div>
         </div> 
