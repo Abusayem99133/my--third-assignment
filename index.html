@@ -46,24 +46,25 @@
 
       <nav>
 
-        <div class="flex p-4 w-auto">
+        <div class="flex p-4 w-auto ml-8">
             <div class=" flex-1 text-4xl font-extrabold text-[#131318] ">
                 <a class="text-xl">Hockey<span class="text-[#FF4240]">’</span>s</a>
             </div>
-            <div class="flex-none">
-               <div class="md:absolute right-64 ">
-               <ul class="menu menu-horizontal space-x-8">
-                <li class="text-[#FF4240]"><a>Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Pages</a></li>
-                <li><a>Blog</a></li>
-                <li><a>Contact</a></li>
-               </ul>
-               </div>             
+            <div class="flex-none ">
+              
+                <div class="lg:relative right-96 ">
+                  <ul class="menu menu-horizontal space-x-8">
+                   <li class="text-[#FF4240]"><a>Home</a></li>
+                   <li><a>About</a></li>
+                   <li><a>Pages</a></li>
+                   <li><a>Blog</a></li>
+                   <li><a>Contact</a></li>
+                  </ul>
+                  </div>  
+              </div>           
               <ul class=" menu menu-horizontal px-1">             
                     <div>
                         <li><a href=""><i class="fa-solid fa-magnifying-glass"></i><span class="justify-center px-3 py-2 text-white bg-[#FF4240]  rounded-[8px]">Get Ticket</span></a></li>
-                    </div>
               </ul>
              
             </div>
@@ -231,9 +232,9 @@
 
       </div>
       <!-- our new products card 1 -->
-<div class="grid grid-cols-2 space-x-6">
+<div class="grid grid-cols-1  lg:grid-cols-2  space-x-6">
   
-  <div class="w-[50%] flex space-x-5 my-12 border-solid border-2 border-[#1313183d] rounded-2xl p-6">
+  <div class=" flex space-x-5 my-12 border-solid border-2 border-[#1313183d] rounded-2xl p-6">
     <div>
       <img src="./Images/5.png" alt="">
     </div>
@@ -411,11 +412,11 @@
 
       <!-- accordion with daisy ui  -->
 
-      <div class=" grid grid-cols-2 mt-8 space-x-10 ">
+      <div class=" grid grid-cols-1 lg:grid-cols-2 mt-8 space-x-10  p-8 rounded-2xl border-solid border-2 border-[#1313183d]">
         <div>
-          <img class="left" src="./Images/11.png"  alt="">
+          <img class="w-[70%]" src="./Images/11.png"  alt="">
         </div>
-        <div class="space-y-8">
+        <div class=" lg:space-y-10">
         <!-- fast accordion component -->
           <div class="collapse collapse-plus bg-base-200">
             <input type="radio" name="my-accordion-3" checked="checked" /> 
@@ -486,7 +487,7 @@
         <h3 class="text-[#131318]  text-4xl font-extrabold">Get In Touch</h3>
         <p>When Muslims are travelling there are special rulings that should be considered. The distance of the journey and the duration of the stay will play an important factor in deciding if the prayer can be</p>
       </div>
-      <div class="flex justify-center space-x-6 space-y-12">
+      <div class="lg:flex justify-center space-x-6 space-y-12">
      <div class="rounded-2xl border-solid border-2 border-[#1313181A] p-12">
       <!-- phone -->
       <div class="bg-[#BCED6D1A] my-6 p-5">
@@ -512,7 +513,7 @@
      <form>
           <!-- xs name section -->
 
-     <div class="flex space-x-6">
+     <div class="lg:flex space-x-6">
       <div>
         <label for="fname">Your Name</label><br>
           <input type="text" placeholder="Enter your full name" class="input input-bordered input-lx w-full max-w-xs bg-[#13131808] mb-6" />
@@ -534,7 +535,7 @@
               <!-- lg phone section -->
     
           <label for="phone">Phone Number</label><br>
-              <input type="text" placeholder="Enter your phone number" class="input input-bordered input-lx w-full max-w-xs bg-[#13131808] mb-6"/> 
+              <input type="text" placeholder="Enter your phone number" class="input input-bordered input-lx w-full max-w-xs bg-[#13131808] lg:mb-6"/> 
         </div>
      </div>
           <br>   
@@ -545,7 +546,8 @@
          
      </div>
     </section>
-    <section class=" text-center my-12 rounded-2xl border-solid border-2 border-[#1313181A]">
+    <!-- social icon  -->
+    <section class=" text-center my-12 p-6 rounded-2xl border-solid border-2 border-[#1313181A]">
       <div class="text-[#131318] text-2xl font-extrabold">
         <h3>Social Media</h3>
       </div>
@@ -558,12 +560,13 @@
     </section>
   </main>
   <footer class="footer p-10 bg-[#131318] text-base-content">
-    <aside class="text-white">
+    <aside class="text-white ml-10">
       <h3 class="text-2xl font-extrabold my-4">Get In Touch</h3>
       <p class="text-xs font-medium">With more and more Muslims <br> traveling for various reasons <br> such as for leisure, business, <br> education and health the demand for </p>
       <p><i class="fa-regular fa-envelope text-red-500"></i> hockeys@support.com</p>
       <p><i class="fa-solid fa-phone-volume text-red-500"></i> (+62) 123-321-543</p>
     </aside> 
+   
     <nav class="text-white">
       <header class=" text-white font-bold">Company</header> 
       <a class="link link-hover text-[#FFFFFF99]">About us</a>
@@ -580,6 +583,7 @@
       <a class="link link-hover text-[#FFFFFF99]">Contact Us</a>
       
     </nav> 
+   
     <nav class="">
       <header class="text-white">Services</header> 
       <a class="link link-hover text-[#FFFFFF99]">Academy</a>
